@@ -1,0 +1,76 @@
+==================================================
+Newton Second Law
+------------------
+
+-- Algorithm --
+1. Save the information about "mass" value
+2. Save the information about "acceleration" value
+3. Let's declare a variable named "force", it does not have any value at the moment but we will fill it later on
+4. Compute the multiplication of "mass" times "acceleration"
+5. After the result occurs, fill the result to "force"
+6. Display the value of "force"
+
+
+-- Pseudocode --
+STORE "mass" with any value
+STORE "acceleration" with any value
+STORE "force" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+==================================================
+Leap Year
+----------
+
+-- Algorithm --
+1. if the "year" is divisible by 4 and not divisible by 100, then it is "leap year"
+2. or if the "year" is divisible by 4 and divisible by 100 and divisible by 400, then it is "leap year"
+3. otherwise it is normal year
+
+
+-- Pseudocode --
+if (("year" modulo 4 is 0) and ("year" modulo 100 is not 0))
+display "Leap Year"
+	or if (("year" modulo 4 is 0) and ("year" modulo 100 is 0) and ("year" modulo 400 is 0)
+    display "Leap Year"
+ else 
+ 	display "Normal Year"
+
+===================================================
+Laundry Day
+------------
+
+--Algorithm--
+1. Foxie will start counting his "clothes" from 0
+2. Repeat steps 3 as long as "clothes" are below 20. If "clothes" reach 20, then go to step 4 
+3. Keep adding the "clothes" one at a time so the counting gradually get closer to the limit. Go back to step 2
+4. Start the washing machine
+
+-- Pseudocode --
+STORE "clothes" with 0
+
+WHILE "clothes" < 20
+  ADD "clothes" by 1
+
+DISPLAY "start washing"
+
+====================================================
+Checking nails
+--------------
+
+--Algorithm--
+1. Look at the data array of 40 students
+2. Go through all the students one by one until all 40 are finished being monitored
+3. If "studentData" is long, go to 3a. If not, go to step 3b. 
+3a. Do "scolding" 
+3b. Do "praise"
+
+-- Pseudocode --
+READ and SAVE "studentData"
+IF "studentData" is long
+  display "scolding"
+ELSE
+  display "praise"
